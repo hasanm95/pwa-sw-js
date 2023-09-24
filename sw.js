@@ -67,6 +67,7 @@ function main(workbox) {
     importScripts(
       "https://storage.googleapis.com/workbox-cdn/releases/7.0.0/workbox-sw.js"
     );
+      console.log("==>", workbox)
     if (workbox) {
       main(workbox);
     }
